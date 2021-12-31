@@ -1,3 +1,12 @@
+/*
+  COLORS
+  primary f2eae0
+  red ef5743
+  blue 6ebcb7
+  pink f45a7f
+  orange fb9638
+  primary dark e8a286
+*/
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +19,10 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.container{
+  width:90%;
+  margin:auto;
 }

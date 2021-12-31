@@ -1,0 +1,17 @@
+.custom-button-container{
+    padding:10px 30px;
+    border:none;
+    border-radius: 5px;
+    color:white;
+    font-weight:bold;
+}
+
+.primary{
+    background-color:#fb9638;
+    box-shadow:3px 3px 10px #fb9638;
+
+    &:hover{
+        background-color:#fda049;
+        box-shadow:none;
+    }
+}

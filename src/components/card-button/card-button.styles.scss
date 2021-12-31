@@ -1,0 +1,36 @@
+.card-button-container{
+    width:300px;
+    padding:15px 30px;
+    border-radius: 10px;
+    transition: 0.3s;
+
+    &:hover{
+        cursor:pointer;
+    }
+
+    p{
+        font-weight:bold;
+        font-size: 20px;
+        color:#fff;
+    }
+}
+
+.primary{
+    background-color:#fb9638;
+    box-shadow:5px 5px 20px #fb9638;
+
+    &:hover{
+        background-color:#fda049;
+        box-shadow:none;
+    }
+}
+
+.secondary{
+    background-color:#6ebcb7;
+    box-shadow:5px 5px 20px #6ebcb7;
+
+    &:hover{
+        background-color:#6ebcb7;
+        box-shadow:none;
+    }
+}
